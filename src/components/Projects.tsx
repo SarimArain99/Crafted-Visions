@@ -38,7 +38,7 @@ const projects: projects[] = [
     hostedLink: "https://code-and-beyond.vercel.app/",
   },
   {
-    image: "/country.png",
+    image: "/Country.png",
     title: "Explore the World",
     description:
       "An interactive web application that allows users to explore countries, view details like population, region, and flag, and even compare countries side by side. This project showcases my ability to work with APIs, display dynamic content, and provide a seamless user experience for users to explore the world around them.",
@@ -183,7 +183,7 @@ function Projects() {
             >
               <Image
                 src={project.image}
-                alt="Project"
+                alt={project.title}
                 className="w-full h-full object-cover"
                 width={1000}
                 height={1000}
